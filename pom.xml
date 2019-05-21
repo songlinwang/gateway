@@ -76,12 +76,11 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
-            <!-- 整合redis -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-data-redis</artifactId>
-                <version>${springboot.version}</version>
-            </dependency>
+            <!-- 整合redis 只在common里面加就可以了 不然common里面引入不了jar包-->
+            <!-- <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-starter-data-redis</artifactId>
+             </dependency>-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-amqp</artifactId>
