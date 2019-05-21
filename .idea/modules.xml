@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaserver.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/gate-way-api.iml" filepath="$PROJECT_DIR$/api/gate-way-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer/serviceconsumer.iml" filepath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider/serviceprovider.iml" filepath="$PROJECT_DIR$/service-provider/serviceprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>

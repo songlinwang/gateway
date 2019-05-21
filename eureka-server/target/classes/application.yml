@@ -1,0 +1,15 @@
+server:
+  port: 8631
+
+spring:
+  application:
+    name: eureka-server
+#是否需要注册到注册中心，因为该项目本身作为服务注册中心，所以为false
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:8631/eureka
+
+

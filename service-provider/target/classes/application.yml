@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-provider
+server:
+  port: 8091
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8631/eureka
