@@ -4,12 +4,13 @@ import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author wsl
  * @date 2019/5/29
  */
-
+@Configuration
 public class RabbitMqConfig {
 
     /**
@@ -131,6 +132,13 @@ public class RabbitMqConfig {
                 .to(perQueueTTLExchange).with(DELAY_QUEUE_PER_QUEUE_TTL_NAME);
     }
 
+    /**
+     * 定义一个最简单的消费者 监听delay_process_queue队列
+     *
+     * @param connectionFactory
+     * @param processReceiver
+     * @return
+     */
     @Bean
     SimpleMessageListenerContainer processContainer(ConnectionFactory connectionFactory, ProcessReceiver processReceiver) {
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();

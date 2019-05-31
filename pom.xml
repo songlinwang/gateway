@@ -14,6 +14,8 @@
         <module>service-provider</module>
         <module>common</module>
         <module>service-consumer</module>
+        <module>distribution-transcation-consumer</module>
+        <module>distribution-transction-producer</module>
     </modules>
 
     <parent>

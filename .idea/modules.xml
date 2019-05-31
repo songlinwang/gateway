@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution-transction-producer/dsp.iml" filepath="$PROJECT_DIR$/distribution-transction-producer/dsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution-transcation-consumer/dtc.iml" filepath="$PROJECT_DIR$/distribution-transcation-consumer/dtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaserver.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/gate-way-api.iml" filepath="$PROJECT_DIR$/api/gate-way-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/serviceconsumer.iml" filepath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" />
