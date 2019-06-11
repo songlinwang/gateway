@@ -67,7 +67,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-client:1.19.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-core:0.10.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-internal:0.10.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
