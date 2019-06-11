@@ -43,4 +43,5 @@ public class RedisMaps {
     long bitSize() {
         return this.bitSize;
     }
+
 }

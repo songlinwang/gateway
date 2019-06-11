@@ -8,6 +8,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author wsl
@@ -21,6 +23,7 @@ public class UserService {
 
     @Cacheable(value = "getUserName")
     public String getUserName() {
+        List<String> keys = new ArrayList<>();
         redisTemplate.opsForList().leftPush("queue", "1");
         redisTemplate.execute(new RedisCallback() {
             @Override
@@ -40,6 +43,16 @@ public class UserService {
                 return null;
             }
         });
+        List<String> result = redisTemplate.executePipelined(new RedisCallback<String>() {
+            @Override
+            public String doInRedis(RedisConnection redisConnection) throws DataAccessException {
+                for (String key : keys) {
+                    redisConnection.get(key.getBytes());
+                }
+                return null;
+            }
+        });
+        List<String> resultTemp = redisTemplate.opsForValue().multiGet(keys);
         return "string";
     }
 }
