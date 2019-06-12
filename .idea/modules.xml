@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/api/gate-way-api.iml" filepath="$PROJECT_DIR$/api/gate-way-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/serviceconsumer.iml" filepath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-provider/serviceprovider.iml" filepath="$PROJECT_DIR$/service-provider/serviceprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security/springsecurity.iml" filepath="$PROJECT_DIR$/spring-security/springsecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway.iml" />
     </modules>
   </component>

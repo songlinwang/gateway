@@ -13,6 +13,7 @@
         <module name="gate-way-api" />
         <module name="serviceconsumer" />
         <module name="serviceprovider" />
+        <module name="springsecurity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="gate-way-api" target="1.8" />
       <module name="serviceconsumer" target="1.8" />
       <module name="serviceprovider" target="1.8" />
+      <module name="springsecurity" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>

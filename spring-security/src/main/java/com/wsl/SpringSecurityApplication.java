@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2019/5/22
  */
 @SpringBootApplication
-public class CommonApplication {
+public class SpringSecurityApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringSecurityApplication.class, args);
     }

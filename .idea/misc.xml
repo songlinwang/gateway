@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/distribution-transcation-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/distribution-transction-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
       </list>
     </option>
   </component>
