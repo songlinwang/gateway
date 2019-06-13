@@ -30,7 +30,8 @@ public class SecurityAuthenticationProvider implements AuthenticationProvider {
 
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-        Md5PasswordEncoder md5PasswordEncoder = new Md5PasswordEncoder();
+        return test(authentication);
+       /* Md5PasswordEncoder md5PasswordEncoder = new Md5PasswordEncoder();
         String salt = "";
         String userName = authentication.getName();
         String password = (String) authentication.getCredentials();
@@ -50,6 +51,30 @@ public class SecurityAuthenticationProvider implements AuthenticationProvider {
             throw new DisabledException("账户不可用");
         }
         UserRole userRole = (UserRole) redisTemplate.opsForList().leftPop(userName);
+        List<String> authorList = new LinkedList<>();
+        authorList.add("AUTHED");
+        // ADMIN
+        authorList.add(userRole.getUserRole());
+        Collection<? extends GrantedAuthority> authorities = AuthorityUtils.
+                createAuthorityList(authorList.toArray(new String[authorList.size()]));
+
+        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
+                new UsernamePasswordAuthenticationToken(userName, password, authorities);
+        usernamePasswordAuthenticationToken.setDetails(user);
+        return usernamePasswordAuthenticationToken;*/
+    }
+
+    private Authentication test(Authentication authentication) {
+        Md5PasswordEncoder md5PasswordEncoder = new Md5PasswordEncoder();
+        String salt = "";
+        String userName = authentication.getName();
+        String password = (String) authentication.getCredentials();
+        // 如果用户不存在 抛出异常
+        User user = new User();
+        user.setUsername("admin");
+        user.setPassword("admin");
+
+        UserRole userRole = new UserRole();
         List<String> authorList = new LinkedList<>();
         authorList.add("AUTHED");
         // ADMIN
