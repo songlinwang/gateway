@@ -1,5 +1,8 @@
 package com.wsl.meta;
 
+import com.wsl.meta.SessionProperty.CustomExpiredSessionStrategy;
+import com.wsl.meta.SessionProperty.CustomInvalidSessionStrategy;
+import com.wsl.meta.SessionProperty.MaximumSessionProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,6 +15,8 @@ import org.springframework.security.web.authentication.RememberMeServices;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentRememberMeToken;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+import org.springframework.security.web.session.InvalidSessionStrategy;
+import org.springframework.security.web.session.SessionInformationExpiredStrategy;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
@@ -75,10 +80,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logout()
                 .permitAll();
 
+        auth.sessionManagement()
+                // session无效处理策略
+                .invalidSessionStrategy(invalidSessionStrategy())
+                .invalidSessionUrl(MaximumSessionProperty.invalidSessionUrl)
+                .maximumSessions(2)
+                // 达到最大数后禁止登录 todo 如果是true的话 则是将之前的挤掉， 但是挤掉哪一个呢？
+                .maxSessionsPreventsLogin(false)
+                // session 过期处理
+                .expiredSessionStrategy(sessionInformationExpiredStrategy())
+                .expiredUrl(MaximumSessionProperty.invalidSessionUrl);
+
         auth.logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/admin/logout"))
-                .logoutSuccessUrl("/adminlogin")
-                .deleteCookies("JSESSIONID", "remember-me");
+                .logoutSuccessUrl("/adminlogin");
+        //.deleteCookies("JSESSIONID", "remember-me");
     }
 
 
@@ -104,6 +120,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         tokenRepository.setDataSource(dataSource);
         tokenRepository.setCreateTableOnStartup(true);
         return tokenRepository;
+    }
+
+    @Bean
+    public InvalidSessionStrategy invalidSessionStrategy() {
+        return new CustomInvalidSessionStrategy(MaximumSessionProperty.invalidSessionUrl);
+    }
+
+    @Bean
+    public SessionInformationExpiredStrategy sessionInformationExpiredStrategy() {
+        return new CustomExpiredSessionStrategy(MaximumSessionProperty.invalidSessionUrl);
     }
 
 
