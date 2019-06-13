@@ -2,21 +2,14 @@ package com.wsl.meta;
 
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationProvider;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author wsl
@@ -28,9 +21,12 @@ public class SecurityAuthenticationProvider implements AuthenticationProvider {
     @Resource
     private RedisTemplate redisTemplate;
 
+    @Resource
+    private SecurityUserDetailService securityUserDetailService;
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-        return test(authentication);
+        return createSuccessAuthentication(authentication);
        /* Md5PasswordEncoder md5PasswordEncoder = new Md5PasswordEncoder();
         String salt = "";
         String userName = authentication.getName();
@@ -64,27 +60,22 @@ public class SecurityAuthenticationProvider implements AuthenticationProvider {
         return usernamePasswordAuthenticationToken;*/
     }
 
-    private Authentication test(Authentication authentication) {
+    /**
+     * fixme 要保证密码的正确性，这个可以参考下 DaoAuthenticationProvider
+     *
+     * @param authentication
+     * @return
+     */
+    private Authentication createSuccessAuthentication(Authentication authentication) {
         Md5PasswordEncoder md5PasswordEncoder = new Md5PasswordEncoder();
         String salt = "";
-        String userName = authentication.getName();
+        String userName = (String) authentication.getPrincipal();
         String password = (String) authentication.getCredentials();
-        // 如果用户不存在 抛出异常
-        User user = new User();
-        user.setUsername("admin");
-        user.setPassword("admin");
-
-        UserRole userRole = new UserRole();
-        List<String> authorList = new LinkedList<>();
-        authorList.add("AUTHED");
-        // ADMIN
-        authorList.add(userRole.getUserRole());
-        Collection<? extends GrantedAuthority> authorities = AuthorityUtils.
-                createAuthorityList(authorList.toArray(new String[authorList.size()]));
+        UserDetails userDetails = securityUserDetailService.loadUserByUsername(userName);
 
         UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
-                new UsernamePasswordAuthenticationToken(userName, password, authorities);
-        usernamePasswordAuthenticationToken.setDetails(user);
+                new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+        //usernamePasswordAuthenticationToken.setDetails(user);
         return usernamePasswordAuthenticationToken;
     }
 
