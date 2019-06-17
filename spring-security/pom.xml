@@ -60,9 +60,22 @@
             <scope>test</scope>
         </dependency>
 
+        <!--2.0以后默认使用lettuce 使用Jedis的话需要手动引入jar包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!--sessions 依赖-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>2.2</version>
         </dependency>
 
         <dependency>
