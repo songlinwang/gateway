@@ -1,11 +1,17 @@
 package com.wsl.service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author wsl
@@ -17,8 +23,17 @@ public class TestController {
     @Resource
     private UserService userService;
 
-    @GetMapping(value = "/products/get/{a}/{b}")
-    public void add(@PathVariable(value = "a") Integer a, @PathVariable(value = "b") Integer b) {
-        log.error("获取用户名:" + userService.getUserName());
+    @Resource
+    private Map<String,CalcService> typeCalcMap;
+
+    @GetMapping(value = "/products/get")
+    public void add(HttpServletRequest request, HttpServletResponse response) {
+        /*Cookie[] cookies = request.getCookies();
+        Cookie cookie = new Cookie("a", "b");
+        cookie.setDomain("open.game.163.com");
+        cookie.setPath("/");
+        response.addCookie(cookie);*/
+        System.out.println(typeCalcMap.get("add").calc("111"));
+        System.out.println(typeCalcMap.get("sub").calc("111"));
     }
 }

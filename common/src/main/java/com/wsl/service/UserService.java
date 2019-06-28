@@ -1,5 +1,6 @@
 package com.wsl.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
@@ -16,6 +17,7 @@ import java.util.List;
  * @date 2019/5/21
  */
 @Service
+@Slf4j
 public class UserService {
 
     @Resource
@@ -54,5 +56,34 @@ public class UserService {
         });
         List<String> resultTemp = redisTemplate.opsForValue().multiGet(keys);
         return "string";
+    }
+
+    public void testTemplate() {
+        exec("123", new ListenerTest() {
+            @Override
+            public void onsuccess() {
+                log.error("success");
+            }
+
+            @Override
+            public void onfail() {
+                log.error("fail");
+            }
+        });
+    }
+
+    public void exec(String exec, ListenerTest listenerTest) {
+        if (exec.equals("123")) {
+            listenerTest.onsuccess();
+        } else {
+            listenerTest.onfail();
+        }
+
+    }
+
+    public interface ListenerTest {
+        void onsuccess();
+
+        void onfail();
     }
 }
