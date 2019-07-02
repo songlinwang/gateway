@@ -9,10 +9,10 @@
         <module name="common" />
         <module name="dsp" />
         <module name="dtc" />
-        <module name="elasticsearch" />
+        <module name="es" />
         <module name="eurekaserver" />
         <module name="gate-way-api" />
-        <module name="rpcdemo" />
+        <module name="rpc" />
         <module name="serviceconsumer" />
         <module name="serviceprovider" />
         <module name="springsecurity" />
@@ -22,10 +22,10 @@
       <module name="common" target="1.8" />
       <module name="dsp" target="1.8" />
       <module name="dtc" target="1.8" />
-      <module name="elasticsearch" target="1.8" />
+      <module name="es" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="gate-way-api" target="1.8" />
-      <module name="rpcdemo" target="1.8" />
+      <module name="rpc" target="1.8" />
       <module name="serviceconsumer" target="1.8" />
       <module name="serviceprovider" target="1.8" />
       <module name="springsecurity" target="1.8" />
