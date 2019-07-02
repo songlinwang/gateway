@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaserver.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/gate-way-api.iml" filepath="$PROJECT_DIR$/api/gate-way-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpcdemo/rpcdemo.iml" filepath="$PROJECT_DIR$/rpcdemo/rpcdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/serviceconsumer.iml" filepath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-provider/serviceprovider.iml" filepath="$PROJECT_DIR$/service-provider/serviceprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/springsecurity.iml" filepath="$PROJECT_DIR$/spring-security/springsecurity.iml" />

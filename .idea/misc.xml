@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/distribution-transction-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/rpcdemo/pom.xml" />
       </list>
     </option>
   </component>
