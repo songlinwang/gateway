@@ -11,6 +11,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class ServiceProviderApplication {
+    /**
+     * EnableDiscoveryClient 向服务中心注册
+     */
     public static void main(String[] args) {
         SpringApplication.run(ServiceProviderApplication.class, args);
     }

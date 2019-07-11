@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
  * @author wsl
  * @date 2019/1/4
  */
-@SpringBootApplication // 开启服务发现的能力
+@SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
 public class ServiceConsumerApplication {
@@ -23,6 +23,10 @@ public class ServiceConsumerApplication {
         return new RestTemplate();
     }
 
+    /**
+     * EnableDiscoveryClient 开启服务发现的能力
+     * EnableFeignClients 开启feign功能
+     */
     public static void main(String[] args) {
         SpringApplication.run(ServiceConsumerApplication.class, args);
     }

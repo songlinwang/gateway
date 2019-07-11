@@ -1,15 +1,39 @@
-server:
-  port: 8631
-
+---
 spring:
   application:
-    name: eureka-server
-#是否需要注册到注册中心，因为该项目本身作为服务注册中心，所以为false
+    name: spring-cloud-eureka
+  profiles: peer1
+server:
+  port: 8000
 eureka:
+  instance:
+    hostname: peer1
   client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: http://127.0.0.1:8631/eureka
-
-
+    serviceUrl:
+      defaultZone: http://peer2:8001/eureka/,http://peer3:8002/eureka/
+---
+spring:
+  application:
+    name: spring-cloud-eureka
+  profiles: peer2
+  server:
+    port: 8001
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8000/eureka/,http://peer3:8002/eureka/
+---
+spring:
+  application:
+    name: spring-cloud-eureka
+  profiles: peer3
+server:
+  port: 8002
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8000/eureka/,http://peer2:8001/eureka/
