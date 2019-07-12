@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7bd953-daba-49b0-8059-b04c23d34729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/config_center/ZkConfigCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerRemoteHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/ServiceConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/ServiceConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/serviceprovider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/serviceprovider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/wsl/service/provider/ServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/wsl/service/provider/ServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,14 +28,14 @@
     <session id="-320932941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
@@ -64,45 +54,45 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="101" />
+          <entry key="class" value="102" />
           <entry key="html" value="3" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="215" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="220" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="36" />
-          <entry key="yml" value="30" />
+          <entry key="xml" value="37" />
+          <entry key="yml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="101" />
+          <entry key="CLASS" value="102" />
           <entry key="HTML" value="3" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="215" />
-          <entry key="XML" value="37" />
-          <entry key="YAML" value="30" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="220" />
+          <entry key="XML" value="38" />
+          <entry key="YAML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="17131" />
-          <entry key="txt" value="256" />
+          <entry key="java" value="17202" />
+          <entry key="txt" value="282" />
           <entry key="xml" value="370" />
-          <entry key="yml" value="861" />
+          <entry key="yml" value="1075" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17131" />
-          <entry key="PLAIN_TEXT" value="298" />
+          <entry key="JAVA" value="17202" />
+          <entry key="PLAIN_TEXT" value="324" />
           <entry key="XML" value="370" />
-          <entry key="YAML" value="861" />
+          <entry key="YAML" value="1075" />
         </counts>
       </usages-collector>
     </session>
@@ -110,28 +100,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/ServiceConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="384">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,19 +112,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerRemoteHystrix.java">
+        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/wsl/gate/ApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="248">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/http/ZuulServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2160">
+              <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/FilterProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2616">
+              <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -160,44 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/client/net/NetClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/client/net/NettyNetClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1776">
-              <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+            <state relative-caret-position="888">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -233,9 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-security/src/main/java/com/wsl/meta/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-security/src/main/java/com/wsl/SpringSecurityApplication.java" />
         <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/resources/application.yml" />
@@ -284,6 +271,9 @@
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerFallbackFactory.java" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/ApiApplication.java" />
+        <option value="$PROJECT_DIR$/api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java" />
       </list>
     </option>
   </component>
@@ -321,6 +311,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,11 +319,68 @@
               <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuul-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -346,7 +394,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java&#10;PersistentTokenBasedRememberMeServices&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.PersistentTokenBasedRememberMeServices&#10;FilterSecurityInterceptor&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;LoginUrlAuthenticationEntryPoint&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint&#10;AbstractAuthenticationProcessingFilter&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class&#10;UsernamePasswordAuthenticationFilter&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class&#10;AbstractAuthenticationProcessingFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562836235959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562897610712" />
     <property name="last_opened_file_path" value="D:/NeteaseWork" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -384,7 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="ServiceConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.service.consumer.ServiceConsumerApplication" />
       <module name="serviceconsumer" />
@@ -577,7 +625,8 @@
       <workItem from="1562291968302" duration="1200000" />
       <workItem from="1562553513408" duration="8227000" />
       <workItem from="1562636690739" duration="1795000" />
-      <workItem from="1562832831325" duration="3538000" />
+      <workItem from="1562832831325" duration="5681000" />
+      <workItem from="1562894779144" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="fix(redis)">
       <created>1558447971583</created>
@@ -677,18 +726,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562065355715</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(springcloud):hystrix feign">
+      <created>1562843189153</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562843189153</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241418000" />
+    <option name="totallyTimeSpent" value="245002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.15191898" />
+      <window_info id="Structure" order="1" sideWeight="0.5021692" side_tool="true" visible="true" weight="0.15191898" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -745,7 +801,8 @@
     <MESSAGE value="feat(Rpc框架):rpc框架" />
     <MESSAGE value="feat(Rpc框架):rename module" />
     <MESSAGE value="feat(Rpc框架):zk分布式锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Rpc框架):zk分布式锁" />
+    <MESSAGE value="feat(springcloud):hystrix feign" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(springcloud):hystrix feign" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,6 +885,12 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/FilterProcessor.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.2.RELEASE/spring-security-core-4.2.2.RELEASE.jar!/org/springframework/security/authentication/AuthenticationProvider.class</url>
           <line>11</line>
@@ -840,69 +903,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/util/AttributeMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/discovery/ServiceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/discovery/ServiceInfoDiscoverer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/discovery/ZookeeperServiceInfoDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelOption.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/discovery/MyZkSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1306">
-          <caret line="220" column="36" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/common/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1163,24 +1163,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/common.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0.jar!/com/netflix/zuul/http/ZuulServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="384">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1189,8 +1196,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="432">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/http/ZuulServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/FilterProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2616">
+          <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/wsl/gate/ApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

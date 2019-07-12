@@ -13,7 +13,10 @@ import org.springframework.context.annotation.Bean;
  */
 
 @SpringBootApplication
-@EnableZuulProxy // 指定zuul的反向代理
+/**
+ *  指定zuul的反向代理
+ */
+@EnableZuulProxy
 @EnableDiscoveryClient
 public class ApiApplication {
     public static void main(String[] args) {

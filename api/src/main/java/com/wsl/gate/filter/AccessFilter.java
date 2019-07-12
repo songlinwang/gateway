@@ -25,6 +25,10 @@ public class AccessFilter extends ZuulFilter {
         return "pre";
     }
 
+    /**
+     * 这个如果是0 那面下面的requestContext可能为空 因为第一个执行。其他的filter还未执行
+     * @return
+     */
     @Override
     public int filterOrder() {
         return 0;
