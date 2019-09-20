@@ -1,6 +1,7 @@
 package com.wsl.mq;
 
 import org.springframework.amqp.core.*;
+import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.context.annotation.Bean;
@@ -10,8 +11,9 @@ import org.springframework.context.annotation.Configuration;
  * @author wsl
  * @date 2019/5/29
  */
-@Configuration
+/*@Configuration*/
 public class RabbitMqConfig {
+
 
     /**
      * 发送到该队列的message会在一段时间后过期进入到delay_process_queue
@@ -34,6 +36,22 @@ public class RabbitMqConfig {
      * DLX
      */
     final static String DELAY_EXCHANGE_NAME = "delay_exchange";
+
+    /**
+     * 配置链接信息
+     *
+     * @return
+     */
+    @Bean
+    public ConnectionFactory connectionFactory() {
+        CachingConnectionFactory connectionFactory = new CachingConnectionFactory("127.0.0.1", 5672);
+        connectionFactory.setUsername("guest");
+        connectionFactory.setPassword("guest");
+        connectionFactory.setVirtualHost("/");
+        // 必须要设置
+        connectionFactory.setPublisherConfirms(true);
+        return connectionFactory;
+    }
 
     /**
      * 创建 DLX exchange
@@ -139,13 +157,14 @@ public class RabbitMqConfig {
      * @param processReceiver
      * @return
      */
-    @Bean
+    /*@Bean
     SimpleMessageListenerContainer processContainer(ConnectionFactory connectionFactory, ProcessReceiver processReceiver) {
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
         container.setConnectionFactory(connectionFactory);
         container.setQueueNames(DELAY_PROCESS_QUEUE_NAME);
         container.setMessageListener(processReceiver);
         return container;
-    }
+    }*/
+
 
 }

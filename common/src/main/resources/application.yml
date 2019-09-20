@@ -1,4 +1,3 @@
-
 spring:
   redis:
     database: 0
@@ -10,9 +9,19 @@ spring:
       max-wait: -1
     timeout: 1000
     rabbitmq:
-      host: 127.0.0.1
-      port: 5672
-      username: admin
-      password: 123456
+      host: 10.216.32.225
+      port: 15672
+      username: guest
+      password: guest
+      #发送确认 对应RabbitTemplate.ConfirmCallback接口
+#      publisher-confirms: true
+      #发送失败回退，对应RabbitTemplate.ReturnCallback接口
+      publisher-returns: true
+#      在配置文件中的话 全局的ack模式都会生效 可以手动注册相关容器SimpleMessageListenerContainer 来实现单个消费者的ack
+#      listener:
+#        direct:
+#          acknowledge-mode: manual
+#        simple:
+#          acknowledge-mode: manual
 server:
   port: 9090

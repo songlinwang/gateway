@@ -2,11 +2,16 @@ package com.wsl.gate.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.actuate.endpoint.SystemPublicMetrics;
+import org.springframework.boot.actuate.metrics.Metric;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Collection;
+import java.util.Optional;
 
 /**
  * @author wsl
@@ -14,6 +19,9 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Component
 public class AccessFilter extends ZuulFilter {
+
+
+
     @Override
     public String filterType() {
         /**
@@ -27,19 +35,18 @@ public class AccessFilter extends ZuulFilter {
 
     /**
      * 这个如果是0 那面下面的requestContext可能为空 因为第一个执行。其他的filter还未执行
+     *
      * @return
      */
     @Override
     public int filterOrder() {
-        return 0;
+
+        return 7;
     }
 
     @Override
     public boolean shouldFilter() {
-        /**
-         * 是否执行这个过滤器，返回true 则表示执行这个过滤器
-         */
-        return true;
+       return true;
     }
 
     @Override

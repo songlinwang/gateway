@@ -1,0 +1,10 @@
+# 确保配置在bootstrap.yml 中，config的相关配置会优先于application.properties label是对应的分支
+#  service-id是集群式配置保证高可用 server注册到eureka中
+spring:
+  cloud:
+    config:
+      name: config
+      profile: dev
+      label: master
+      discovery:
+        service-id: config-server

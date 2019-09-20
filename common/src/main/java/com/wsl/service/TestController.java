@@ -1,5 +1,6 @@
 package com.wsl.service;
 
+import com.wsl.mq.HelloSender;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,6 +23,8 @@ import java.util.Map;
 public class TestController {
     @Resource
     private UserService userService;
+    @Resource
+    private HelloSender helloSender;
 
     @Resource
     private Map<String,CalcService> typeCalcMap;
@@ -33,7 +36,8 @@ public class TestController {
         cookie.setDomain("open.game.163.com");
         cookie.setPath("/");
         response.addCookie(cookie);*/
-        System.out.println(typeCalcMap.get("add").calc("111"));
-        System.out.println(typeCalcMap.get("sub").calc("111"));
+       /* System.out.println(typeCalcMap.get("add").calc("111"));
+        System.out.println(typeCalcMap.get("sub").calc("111"));*/
+        helloSender.send();
     }
 }
