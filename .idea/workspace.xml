@@ -2,100 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7bd953-daba-49b0-8059-b04c23d34729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_3_5_3_201412180710_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_1_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_1_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_1_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_1_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_codec_1_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_4_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/RateLimiterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/bus/BusConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/bus/BusEventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/bus/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/bus/UserRemoteApplicationEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/im/IoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/im/IoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/im/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/im/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/im/NioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/ReturnListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/wsl/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestConcurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestGuavaRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestHeadFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestJDK8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestMyRetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/TestStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/CommonApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/controller/CommonController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/meta/event/EventDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/meta/event/EventDemoListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/meta/event/EventDemoPublisher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/mq/ProcessReceiver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/mq/RabbitMqConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/redis/RedisBloomFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/redis/RedisBloomStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/redis/RedisMaps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/redis/SingleRedisAppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/CalcService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/serviceImpl/AddCalcServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/com/wsl/service/serviceImpl/SubCalcServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestConcurrent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestGuavaRetry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestHeadFirst.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestJDK8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestMQ.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestMyRetryListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/TestStatic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/b.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gate-way-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gate-way-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/AccessFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/TestMQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/TestMQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/serviceconsumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,7 +42,7 @@
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.18" value="4" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.21" value="3" />
@@ -151,7 +60,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="92" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,7 +68,7 @@
           <entry key="class" value="137" />
           <entry key="html" value="3" />
           <entry key="iml" value="5" />
-          <entry key="java" value="265" />
+          <entry key="java" value="267" />
           <entry key="pom" value="1" />
           <entry key="xml" value="44" />
           <entry key="yml" value="40" />
@@ -170,7 +79,7 @@
           <entry key="CLASS" value="137" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="265" />
+          <entry key="JAVA" value="267" />
           <entry key="XML" value="45" />
           <entry key="YAML" value="40" />
         </counts>
@@ -178,18 +87,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="65" />
-          <entry key="java" value="21900" />
+          <entry key="java" value="23051" />
           <entry key="txt" value="286" />
           <entry key="xml" value="412" />
-          <entry key="yml" value="1681" />
+          <entry key="yml" value="1703" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21900" />
+          <entry key="JAVA" value="23051" />
           <entry key="PLAIN_TEXT" value="351" />
           <entry key="XML" value="412" />
-          <entry key="YAML" value="1681" />
+          <entry key="YAML" value="1703" />
         </counts>
       </usages-collector>
     </session>
@@ -199,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="1716">
+              <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,15 +126,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="53" column="39" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="192">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2222#2223#0" expanded="true" />
+                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2510#2511#0" expanded="true" />
+                <element signature="e#2567#2568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,8 +155,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="832">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,12 +179,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/ReturnListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="429">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,8 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="333">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -269,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="28" column="70" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="70" />
+            <state relative-caret-position="288">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -279,10 +212,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="288">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -324,8 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/discovery/ServiceRegister.java" />
-        <option value="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/server/register/ServiceRegister.java" />
         <option value="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/server/register/DefaultServiceRegister.java" />
         <option value="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/server/register/ZookeeperExportServiceRegister.java" />
         <option value="$PROJECT_DIR$/rpcdemo/src/main/java/com/wsl/common/Response.java" />
@@ -368,12 +311,14 @@
         <option value="$PROJECT_DIR$/api/src/main/java/com/wsl/gate/filter/RateLimiterFilter.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/im/NettyServer.java" />
         <option value="$PROJECT_DIR$/common/src/test/java/TestMQ.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/ReturnListener.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXSender.java" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloSender.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXReceiver.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java" />
       </list>
     </option>
@@ -411,7 +356,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -486,8 +430,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,7 +445,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java&#10;PersistentTokenBasedRememberMeServices&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.PersistentTokenBasedRememberMeServices&#10;FilterSecurityInterceptor&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;LoginUrlAuthenticationEntryPoint&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint&#10;AbstractAuthenticationProcessingFilter&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class&#10;UsernamePasswordAuthenticationFilter&#9;FILE&#9;jar://D:/.m2/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class&#10;AbstractAuthenticationProcessingFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568958542683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569311061214" />
     <property name="last_opened_file_path" value="D:/NeteaseWork" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -791,6 +736,7 @@
       <workItem from="1568705812988" duration="5404000" />
       <workItem from="1568772261811" duration="15430000" />
       <workItem from="1568857208930" duration="4654000" />
+      <workItem from="1569203044146" duration="15398000" />
     </task>
     <task id="LOCAL-00001" summary="fix(redis)">
       <created>1558447971583</created>
@@ -928,14 +874,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332503000" />
+    <option name="totallyTimeSpent" value="347901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89006025" visible="true" weight="0.17270789" />
-      <window_info id="Structure" order="1" sideWeight="0.10993976" side_tool="true" visible="true" weight="0.17270789" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88375795" weight="0.17430703" />
+      <window_info id="Structure" order="1" sideWeight="0.13851993" side_tool="true" weight="0.17430703" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -945,7 +891,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.14316703" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29249448" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2790445" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31813246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -971,6 +917,44 @@
       <window_info anchor="right" id="SciView" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.0" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88375795" visible="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" sideWeight="0.13851993" side_tool="true" visible="true" weight="0.17430703" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14316703" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29249448" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31813246" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.10737527" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28198293" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.0" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1074,7 +1058,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java</url>
-          <line>38</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -1108,20 +1092,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/service/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.6.RELEASE/spring-cloud-netflix-core-1.2.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignLoadBalancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.6.RELEASE/spring-cloud-netflix-core-1.2.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1406,13 +1376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1425,29 +1392,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/service/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="333">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="1716">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="70" />
+        <state relative-caret-position="832">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1456,20 +1419,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/ReturnListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="429">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloSender.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/HelloReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="288">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1478,13 +1451,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/RabbitMqConfigDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="192">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/wsl/mq/DLXSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 package com.wsl.service;
 
+import com.wsl.mq.DLXSender;
 import com.wsl.mq.HelloSender;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,8 @@ public class TestController {
     private UserService userService;
     @Resource
     private HelloSender helloSender;
+    @Resource
+    private DLXSender dlxSender;
 
     @Resource
     private Map<String,CalcService> typeCalcMap;
@@ -38,6 +41,7 @@ public class TestController {
         response.addCookie(cookie);*/
        /* System.out.println(typeCalcMap.get("add").calc("111"));
         System.out.println(typeCalcMap.get("sub").calc("111"));*/
-        helloSender.send();
+        /*helloSender.send();*/
+        dlxSender.send("test order");
     }
 }
